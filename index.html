@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Inscrição - Estágio - Programador Web</b></legend>
+                <br>
+                <p><b>Cadastro</b></p>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" size="30" maxlength="36" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" size="30" maxlength="36" required>
+                    <label for="nome" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" size="20" maxlength="8" required>
+                    <label for="senha" class="labelInput">Senha</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" size="20" maxlength="8" required>
+                    <label for="senha" class="labelInput">Confirmar senha</label>
+                </div>
+                <p><b>Sexo:</b></p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br><br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br><br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br>
+                <p><b>Estado</b></p>
+                <select name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="DF">Distrito Federal</option>
+                </select>
+                <br><br>
+                <p><b>Curso</b></p>
+                <select name="curso" id="curso">
+                    <option value="">Ciência da Computação</option>
+                    <option value="">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="">Engenharia de Software</option>
+                    <option value="">Engenharia da Computação</option>
+                    <option value="">Sistemas de Informação</option>
+                </select>
+                <p><b>Tecnologias</b></p>
+                <input type="checkbox" name="habilidades" id="js" value="js"> <label for="js">JavaScript</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="html" value="html"> <label for="html">HTML</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="css" value="css"> <label for="css">CSS</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="php" value="php"> <label for="php">PHP</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="java" value="java"> <label for="java">Java</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="ruby" value="ruby"> <label for="ruby">Ruby</label>
+                <br>
+                <input type="checkbox" name="habilidades" id="python" value="python"> <label for="python">Python</label>
+                
+                <br><br>
+                <input type="reset" hspace="5" id="Reset" value="Limpar Dados">
+                <input type="submit" hspace="5" id="Submit" value="Enviar Dados">
+                <input type="button" hspace="5" id="Button" value="Salvar">
+            </fieldset>
+</body>
+
+</html>
